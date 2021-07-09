@@ -1,49 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Material Design for Bootstrap</title>
-    <!-- MDB icon -->
-    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
-    <!-- Google Fonts Roboto -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-    />
-    <!-- MDB -->
-    <link rel="stylesheet" href="vendors/MBD5/css/mdb.min.css" />
-  </head>
-  <body>
-    <!-- Start your project here-->
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+
+  <title>Bootstrap 5</title>
+</head>
+
+<body class="bg-gold">
+  <!-- Start your project here-->
+  <form>
     <div class="container">
-      <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
-        <div class="text-center">
-          <img
-            class="mb-4"
-            src="https://mdbootstrap.com/img/logo/mdb-transparent-250px.png"
-            style="width: 250px; height: 90px;"
-          />
-          <h5 class="mb-3">Thank you for using our product. We're glad you're with us.</h5>
-          <p class="mb-3">MDB Team</p>
-          <a
-            class="btn btn-primary btn-lg"
-            href="https://mdbootstrap.com/docs/standard/getting-started/"
-            target="_blank"
-            role="button"
-            >Start MDB tutorial</a
-          >
+      <!--Phone and Name Begin-->
+      <div class="row row-cols-1 row-cols-sm-2 justify-content-center mb-3">
+        <div class="col">
+          <label for="phone" class="form-label">Your phone</label>
+          <input type="text" class="form-control" id="phone" placeholder="Phone">
+        </div>
+        <div class="col">
+          <label for="name" class="form-label">Your Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Name">
         </div>
       </div>
-    </div>
-    <!-- End your project here-->
+      <!--Phone and Name End-->
+      <!--Services Begin-->
+      <div class="row row-cols-2 row-cols-lg-5 justify-content-center mb-3">
+        <div class="col text-center mb-3 waitlist-check-box rounded">
+          <input type="checkbox" class="btn-check" id="option1" autocomplete="off">
+          <label class="check-box-btn rounded py-5" for="option1">Pedicure</label>
+        </div>
+        <div class="col text-center mb-3 waitlist-check-box rounded">
+          <input type="checkbox" class="btn-check" id="option2" autocomplete="off">
+          <label class="check-box-btn rounded py-5" for="option2">Manicure</label>
+        </div>
+        <div class="col text-center mb-3 waitlist-check-box rounded">
+          <input type="checkbox" class="btn-check" id="option3" autocomplete="off">
+          <label class="check-box-btn rounded py-5" for="option3">Enhancement</label>
+        </div>
+        <div class="col text-center mb-3 waitlist-check-box rounded">
+          <input type="checkbox" class="btn-check" id="option4" autocomplete="off">
+          <label class="check-box-btn rounded py-5" for="option4">Facial</label>
+        </div>
+        <div class="col text-center mb-3 waitlist-check-box rounded">
+          <input type="checkbox" class="btn-check" id="option5" autocomplete="off">
+          <label class="check-box-btn rounded py-5" for="option5">Waxing</label>
+        </div>
+      </div>
+      <!--Services End-->
+      <!--Technician Begin-->
+      <div class="row justify-content-center mb-3">
 
-    <!-- MDB -->
-    <script type="text/javascript" src="vendors/MBD5/js/mdb.min.js"></script>
-    <!-- Custom scripts -->
-    <script type="text/javascript"></script>
-  </body>
+      </div>
+      <!--Technician End-->
+      <!--Submit Begin-->
+      <div class="row justify-content-center mb-3">
+
+      </div>
+      <!--Submit End-->
+    </div>
+  </form>
+  <!-- End your project here-->
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</body>
+
 </html>
